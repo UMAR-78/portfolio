@@ -1,0 +1,97 @@
+.AboutSection {
+  margin-top: 4rem;
+}
+.ABOUTTEXT {
+  margin-top: 3rem;
+  width: 70%;
+  line-height: 1.4rem;
+  color: #8892b0;
+  margin-bottom: 30px;
+}
+.backBox {
+  border: 1px solid #8892b0; /* You can change the color and style as needed */
+  width: 300px; /* Adjust the width of the line */
+  height: 300px;
+  /* margin-right: 20px; */
+}
+.contentAboutSection {
+  display: flex;
+  align-items: center;
+}
+.AboutImage {
+  width: 400px;
+  height: 300px;
+}
+.imageSection {
+  z-index: 10;
+  position: relative;
+}
+.rightSide {
+  display: flex;
+  align-items: center;
+}
+
+.borderBox {
+  position: absolute;
+  right: 0;
+  margin-right: 170px;
+  margin-top: 40px;
+  width: 400px; /* Adjust the width of the right and bottom lines */
+  height: 300px; /* Adjust the height of the right and bottom lines */
+  border-right: 2px solid #60e8cd; /* Color of the right line */
+  border-bottom: 2px solid #60e8cd; /* Color of the bottom line */
+  border-left: 2px solid #60e8cd; /* Color of the right line */
+  border-top: 2px solid #60e8cd;
+}
+.AboutImage:hover {
+  transform: translateY(-05px);
+}
+.imageSection:hover .AboutImage {
+  opacity: 1; /* Hide the real image on hover */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #60e8cd; /* Color of the overlay */
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in;
+}
+
+.imageSection:hover .overlay {
+  opacity: 0; /* Show the overlay on hover */
+}
+
+/* MEDIA QUEREIS */
+@media (max-width: 480px) {
+  .contentAboutSection {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+  }
+  .AboutImage {
+    width: 300px;
+    height: 250px;
+  }
+  .borderBox {
+    right: 0;
+    margin-right: 20px;
+    margin-top: 40px;
+    width: 300px; /* Adjust the width of the right and bottom lines */
+    height: 250px; /* Adjust the height of the right and bottom lines */
+    border-right: 2px solid #60e8cd; /* Color of the right line */
+    border-bottom: 2px solid #60e8cd; /* Color of the bottom line */
+    border-left: 2px solid #60e8cd; /* Color of the right line */
+    border-top: 2px solid #60e8cd;
+  }
+  .ABOUTTEXT {
+    margin-top: 3rem;
+    min-width: 100%;
+    line-height: 1.8rem;
+    color: #8892b0;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+}
