@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Contact = () => {
+const Work = () => {
   return (
     <div>Ooops!!Construction Going on....</div>
   )
 }
 
-export default Contact
+export default Work
