@@ -6,9 +6,12 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat";
-  background-color: #0a192f;
+  
 }
+body{
+  background-color: #0a192f;
 
+}
 
 ul {
   list-style: none;

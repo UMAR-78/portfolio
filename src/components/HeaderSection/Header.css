@@ -1,8 +1,5 @@
-.active {
-  color: #60e8cd;
-}
-
 .Header {
+
   display: flex;
   align-items: center;
   justify-content: space-between;

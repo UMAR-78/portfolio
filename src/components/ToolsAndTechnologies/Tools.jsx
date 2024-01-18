@@ -68,6 +68,7 @@ const Tools = () => {
           practical resources that help me excel in my projects.
         </p>
       </div>
+      
       <div className="ToolsDiv">
         {toolsData.map((tool, index) => (
           <div key={index} className="tool">
