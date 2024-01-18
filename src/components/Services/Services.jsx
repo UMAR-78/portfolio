@@ -70,7 +70,7 @@ const Services = () => {
   return (
     <div className="container2 ServicesSection">
       <h1 className="contentHeading">
-        <span>05.</span>Services I offer <span className="spanLine"></span>
+        <span>05.</span> Services I offer <span className="spanLine"></span>
       </h1>
 
       <div className="mainDivofServicesSection">
