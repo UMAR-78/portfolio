@@ -74,7 +74,7 @@ const Work = () => {
           <div className="textAboutSection">
             <small className="textAboutProject">
               RailBooker.com, a user-friendly web application I crafted using
-              the MERN stack. This platform is all about simplifying the train
+              the MERN stack. This platform is all about simplifying <br />the train
               booking experience, offering easy navigation and real-time
               updates. With a personalized profile feature and secure payments,
               RailBooker.com ensures a hassle-free and secure journey. It's my
