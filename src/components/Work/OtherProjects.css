@@ -1,0 +1,47 @@
+.otherProjectSection {
+  margin-top: 4rem;
+}
+.otherProjectHeading {
+  color: #ccd6f6;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.project1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid #60e8cd; */
+  border-radius: 5px;
+  padding: 40px 20px;
+  background-color: #112240;
+  box-shadow: 0 0 8px 2px #000000;
+  color: #ccd6f6;
+  transition: 0.3s all ease-in;
+  position: relative;
+}
+
+.techStackforOtherProjects {
+  word-spacing: 6px;
+}
+.projectIconsforOtherProjects {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.otherProjects {
+  /* display: grid; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .otherProjects {
+    grid-template-columns: 1fr;
+  }
+}

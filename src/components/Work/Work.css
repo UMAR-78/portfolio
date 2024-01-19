@@ -15,7 +15,7 @@
   margin-top: 7rem;
 }
 .ProjectImage {
-  width: 550px;
+  width: 450px;
 }
 
 .LeftSideWORK {
@@ -48,7 +48,7 @@
 .techStack {
   margin-top: 10px;
   color: var(--third-color);
-  word-spacing: 40px;
+  word-spacing: 30px;
 }
 .projectIcons {
   color: var(--third-color);

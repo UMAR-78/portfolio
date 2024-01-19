@@ -2,6 +2,7 @@ import React from "react";
 import "./Work.css";
 import { FiGithub } from "react-icons/fi";
 import { GoLinkExternal } from "react-icons/go";
+import OtherProjects from "./OtherProjects";
 const Work = () => {
   return (
     <div className="container2 WorkSection">
@@ -74,12 +75,12 @@ const Work = () => {
           <div className="textAboutSection">
             <small className="textAboutProject">
               RailBooker.com, a user-friendly web application I crafted using
-              the MERN stack. This platform is all about simplifying <br />the train
-              booking experience, offering easy navigation and real-time
-              updates. With a personalized profile feature and secure payments,
-              RailBooker.com ensures a hassle-free and secure journey. It's my
-              way of transforming the train travel process into something
-              straightforward and enjoyable for everyone
+              the MERN stack. This platform is all about simplifying <br />
+              the train booking experience, offering easy navigation and
+              real-time updates. With a personalized profile feature and secure
+              payments, RailBooker.com ensures a hassle-free and secure journey.
+              It's my way of transforming the train travel process into
+              something straightforward and enjoyable for everyone
             </small>
           </div>
           {/* <br /> */}
@@ -94,6 +95,7 @@ const Work = () => {
           </div>
         </div>
       </div>
+      <OtherProjects/>
     </div>
   );
 };
