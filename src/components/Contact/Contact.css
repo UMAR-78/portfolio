@@ -36,7 +36,7 @@
   
   
   .successMessage {
-    color: #4caf50;
+    color: var(--primary-color);
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
